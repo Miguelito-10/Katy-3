@@ -1,0 +1,189 @@
+body {
+    background: linear-gradient(to top, #ffe3e3, #fff6f9);
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #444;
+  }
+  
+  .birthday-container {
+    margin: 50px auto;
+    max-width: 700px;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    color: #ff69b4;
+    margin-bottom: 30px;
+  }
+  
+  .mensaje-corto {
+    margin-top: 20px;
+    font-size: 1.4em;
+    color: #555;
+  }
+  
+  .mensaje-titulo {
+    margin-top: 50px;
+    font-size: 2em;
+    color: #d63384;
+  }
+  
+  .dedicatoria {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 15px;
+  }
+  
+  .cake {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+  }
+  
+  .plate {
+    position: absolute;
+    bottom: 0;
+    width: 220px;
+    height: 20px;
+    background: #e0e0e0;
+    border-radius: 50% / 20%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  .layer {
+    position: absolute;
+    width: 220px;
+    left: 0;
+    border-radius: 50% / 15%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  }
+  
+  .layer-bottom { height: 70px; bottom: 20px; background: linear-gradient(#ff7eb3, #ff758c); }
+  .layer-middle { height: 60px; bottom: 90px; background: linear-gradient(#ffb347, #ffa07a); }
+  .layer-top { height: 50px; bottom: 150px; background: linear-gradient(#ffd700, #fff176); }
+  
+  .candles {
+    position: absolute;
+    bottom: 190px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .candle {
+    width: 12px;
+    height: 35px;
+    background: repeating-linear-gradient(45deg, #fff, #fff 4px, #ff99cc 4px, #ff99cc 8px);
+    border-radius: 3px;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  }
+  
+  .flame {
+    width: 14px;
+    height: 20px;
+    background: radial-gradient(circle, #ffecb3 20%, #ff9800 60%, #f44336 100%);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: flicker 1s infinite;
+    box-shadow: 0 0 8px rgba(255, 165, 0, 0.8);
+  }
+  
+  @keyframes flicker {
+    0% { transform: translateX(-50%) scale(1) rotate(-2deg); opacity: 1; }
+    50% { transform: translateX(-50%) scale(1.1) rotate(2deg); opacity: 0.8; }
+    100% { transform: translateX(-50%) scale(1) rotate(-1deg); opacity: 1; }
+  }
+  
+  .smoke {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8px;
+    height: 8px;
+    background: radial-gradient(circle, rgba(200,200,200,0.5), transparent);
+    opacity: 0;
+  }
+  
+  .smoke.active {
+    animation: smokeRise 1.5s forwards;
+  }
+  
+  @keyframes smokeRise {
+    0% { transform: translateX(-50%) translateY(0) scale(1); opacity: 0.7; }
+    100% { transform: translateX(-50%) translateY(-50px) scale(1.5); opacity: 0; }
+  }
+  .pregunta-section {
+    margin-top: 70px;
+    padding: 30px;
+    background-color: #fff9f9;
+    border-radius: 15px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  }
+  
+  .pregunta-section h2 {
+    font-size: 1.8em;
+    color: #ff69b4;
+    margin-bottom: 20px;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn-si, .btn-no {
+    padding: 15px 25px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-si {
+    background-color: #ffb3d9;
+    color: white;
+  }
+  
+  .btn-si:hover {
+    background-color: #ff69b4;
+  }
+  
+  .btn-no {
+    background-color: #ffc0cb;
+    color: white;
+    position: relative;
+  }
+  #respuesta-si {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #f0f8ff;
+    border-radius: 15px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  }
+  
+  #respuesta-si h2 {
+    color: #28a745;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  

@@ -1,0 +1,23 @@
+{
+  "greeting": "ola",
+  "name": "Katy 💖",
+  "greetingText": "Qué bonito es tu nombre, por cierto :p",
+  "text1": "¡Es tu cumpleaños! 🎂",
+  "textInChatBox": "Feliz cumpleaños, ya eres un año más vieja",
+  "sendButtonLabel": "Enviar",
+  "text2": "Sabes que te quiero mucho y muchas cosas que ya sabes jejeje",
+  "text3": "Pero ya paro de ser cursi.",
+  "text4": "Te hice un regalo algo...",
+  "text4Adjective": "especial",
+  "text5Entry": "Porque,",
+  "text5Content": "eres muy especial para mí",
+  "smiley": ":)",
+  "bigTextPart1": "T",
+  "bigTextPart2": "Ú",
+  "imagePath": "img/Katy.jpg",
+  "wishHeading": "¡Feliz Cumpleaños!",
+  "wishText": "Espero que pases un día increíble 💕",
+  "outroText": "¿Te gustó?",
+  "replayText": "Dale click para volver a verlo",
+  "outroSmiley": ":D"
+}
